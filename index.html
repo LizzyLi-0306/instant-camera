@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instant Camera</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Instant Camera</h1>
+
+  <div class="camera">
+    <h2>Camera Status</h2>
+
+    <p id="powerStatus">Power: OFF</p>
+    <p id="filmStatus">Film Remaining: 5</p>
+    <p id="photoCount">Photos Taken: 0</p>
+    <p id="statusMessage">Camera is off.</p>
+
+    <button id="powerButton">Power</button>
+    <button id="shutterButton">Shutter</button>
+    <button id="reloadButton">Reload Film</button>
+    
+  </div>
+
+<div id="photoArea">
+  <div id="polaroid">
+    <div id="photoImage" class="developed"></div>
+    <p id="developStatus">Waiting for photo...</p>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
